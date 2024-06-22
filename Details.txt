@@ -1,0 +1,102 @@
+
+Road-Map:
+
+  Internet & JS Basics
+
+  HTML
+
+  CSS
+
+  JS Advanced
+    DOM
+    Asynchronous Programming
+    fetch
+    async/await
+  
+  API: Application Programming Interface
+  
+  React:
+    Single Page Application ( Only one single HTML File )
+    DOM Manipulation using a technique in React( VDOM Manipulation )
+
+  DB:
+    SQL
+    NoSql
+  
+  Backend:
+    Express
+
+  
+Topics:
+
+  Revision for learning react:
+    var, let, const
+    arrow function
+    template literals
+    spread, rest
+    array & object destructures
+    property shorthand
+
+  promise:
+    async / await
+    error handling
+      try {
+        // code which prone to errors
+      } catch ( e ) { 
+        // catch the error which happend during the execution of above code
+      }
+  fetch:
+    GET, POST, PUT, DELETE
+  
+  Node Application: ( React will be running based on Node Application )
+    node --> separate runtime platform for Javascript like browser
+
+    Download NodeJs:
+      https://nodejs.org/en/download/prebuilt-installer
+
+    Extensions:
+      ESLint
+
+Next:
+
+  readme.md writing
+
+  rest operation
+
+  npm - Node Package Manager
+
+    JavaScript Libraries:
+      Node Project: Node is Isolated Environment to RUN JS Files
+        npm --> Node Package/Libraries Manager 
+        inlcudes open source libraries into a Node Project
+
+    npm project ( a simple code setup which allows installation of external packages )
+    Creation of npm project:
+      1. create needed folder
+      2. change directory to created folder
+      3. npm init -> cmd to create npm project
+
+    
+      npm install <package-name>
+
+      **can be done only in the folder where package.json is there** 
+
+      import the package and use it with require( old syntax )/import
+
+    package.json --> information about npm project
+      name, description, version, main, author, license
+
+      scripts --> run an operation related to the project
+    package-lock.json --> file which keeps track of the packages installed and their dependencies
+
+    node_modules --> js file & function used by the project ( should not be pushed to github )
+
+      Eg: lodash --> utility functions for js
+
+    readme.md --> used for documenting Your repository codebase
+
+Task:
+  Read about Single Page & Multi Page Applications
+
+  Incase if You do not have nodejs please download it and install
+  Also install the extensions required ( whatever the extensions your comformtable and familiar )
